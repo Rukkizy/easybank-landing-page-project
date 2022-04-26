@@ -48,6 +48,7 @@ hr{
   width: 100%;
   margin: auto auto;
   display: flex;
+  flex-direction: row-reverse;
   background-color: hsl(0, 0%, 98%);
 }
 .nex-gen{
@@ -70,6 +71,9 @@ hr{
 }
 .sect1-img{
   width: 60%;
+}
+.mobileviewpic{
+  display: none;
 }
 .btn2{
   cursor: pointer;
@@ -194,7 +198,6 @@ footer{
 }
 .logo{
   margin: 15px 0px;
-  /* background-color: white; */
 }
 #stub-logo{
  filter: invert(30);
@@ -233,89 +236,164 @@ footer{
   text-align: right;
   margin: 30px;
 }
-.footeasy{
+.foot3c p{
+  font-size: 1em;
+  color: hsl(233, 8%, 62%);
   font-size: 0.8em;
   margin-top: 50px;
 }
-.footeasy p{
-  font-size: 1em;
-  color: hsl(233, 8%, 62%);
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .attribution {
   font-size: 11px;
   text-align: center;
 }
-
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+@media screen and (max-width: 375px){
+  body{
+    width: 100vw;
+  }
+  nav{
+    width: 100%;
+  }
+  .navlist, .btn{
+    display: none;
+  }
+  main{
+    width: 100vw;
+  }
+  .section1 {
+    width: 100%;
+  }
+  .sect-1{
+    display: block;
+  }
+  .sect1-img{
+    display: none;
+  }
+  .mobileviewpic{
+    display: block;
+  }
+  #image-mockups{
+  width: 100%;
+  margin-top: -600px;
+  margin-bottom: 90px;
+  }
+  #bg-intro-mobile{
+    margin-top: -26px;
+  }
+  .nex-gen{
+    padding: 0;
+    width: 95%;
+    margin: auto auto;
+    text-align: center;
+    margin-top: -50px;
+  }
+  .nex-gen h1{
+    width: 95%;
+    font-size: 2em;
+    margin-top: -2px;
+  }
+  .nex-gen p{
+    width: 90%;
+    font-size: .9em;
+    line-height: 20px;
+    font-weight: 400;
+    margin: 10px auto;
+  }
+  .nex-gen button{
+    margin-bottom: 60px;
+    margin-top: 20px;
+  }
+  .sect-2{
+    margin-top: 0;
+  }
+  .sect-2cont{
+    width: 100%;
+  }
+  .easy-bnk{
+    width: 90%;
+    text-align: center;
+    margin-top: -10px;
+  }
+  .easy-bnk h2{
+    width: 90%;
+    margin: auto auto;
+    font-size: 2em;
+    font-weight: 400;
+  }
+  .easy-bnk p{
+    width: 90%;
+    margin: 10px auto;
+    font-size: .9em;
+    font-weight: 400;
+  }
+  .icons-div{
+    display: block;
+  }
+  .rol-1{
+    text-align: center;
+    margin: 10px auto;
+  }
+  .rol-1 h3{
+    font-weight: 400;
+  }
+  .rol-1 p{
+    width: 85%;
+    margin: 0px auto;
+  }
+  .sect-3 h2{
+    text-align: center;
+  }
+  .sect-3cont{
+    display: block;
+    padding: 0px;
+    margin: 40px auto;
+  }
+  .rol-2{
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 50px;
+  }
+  .rol-2 h4{
+    width: 80%;
+    margin: 0px auto;
+    font-size: 1em;
+    font-weight: 400;
+  }
+  .rol-2 p{
+    width: 80%;
+    margin: 15px auto;
+  }
+  .foot-cont{
+    display: block;
+  }
+  .easylogo{
+    width: 60%;
+    margin: 0px auto;
+  }
+  #stub-logo{
+    padding-left: 20px;
+  }
+  .foot3a p{
+    text-align: center;
+  }
+  .foot3b{
+    margin-top: 0px;
+  }
+  .foot3b p{
+    text-align: center;
+  }
+  .foot3c{
+    width: 80%;
+    margin: 0px auto;
+    text-align: center;
+    margin-top: 10px;
+    padding: 0;
+  }
+  .foot3c p{
+    padding: 0;
+    margin: 30px 0px;
+  }
+  }
